@@ -30,7 +30,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "@apidevtools/swagger-parser"
+           ]
           },
           "configurations": {
             "production": {
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sandbox-manager"
+    }
+  },
+  "defaultProject": "sandbox-manager",
+  "cli": {
+    "analytics": false
+  }
 }

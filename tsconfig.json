@@ -15,6 +15,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
-  }
+    ],
+    "paths": {
+      "stream": [
+        "node_modules/stream-browserify"
+      ],
+      "http": [
+        "node_modules/http-browserify"
+      ],
+      "https": [
+        "node_modules/https-browserify"
+      ],
+    }
+  },
 }
